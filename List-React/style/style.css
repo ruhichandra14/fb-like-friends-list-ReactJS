@@ -1,0 +1,154 @@
+.container{
+	min-width: 400px;
+	min-height: 550px;
+	margin: 30px 0 0 90px;
+	padding: 0;
+	background-color: rgba(156, 214, 213, 0.170);
+}
+
+header {
+    background-color: #070758;
+    color: #eceeef;
+    font-weight: bold;
+    font-family: comic sans ms;
+    height: 60px;
+    font-size: 25px;
+    text-align: center;
+    padding: 11px 0 0 0;
+    margin: 0;
+}
+
+label#search-label {
+    float: right;
+    margin-right: 35px;
+    margin-top: 19px;
+    font-family: comic sans ms;
+}
+
+li{
+	list-style-type: none;
+	font-family: cursive;
+	font-weight: bold;
+}
+
+input#addition-name {
+    margin-top: 19px;
+
+}
+
+form#addition-form {
+    margin-left: 36px;
+}
+
+li.name-list{
+    position: relative;
+    top: -27px;
+    left: 58px;
+    list-style-type: none;
+    background-color: white;
+}
+
+label.label-list {
+    margin-left: 21px;
+}
+
+ul#ul-list {
+    margin-top: 20px;
+    float: left;
+}
+
+.result1-container{
+	font-family:sans-serif;
+}
+
+input.button-list {
+    border-radius: 7px;
+    border: 1px solid lightsteelblue;
+    background-color: cyan;
+    font-family: fantasy;
+    background-color: bisque;
+}
+
+.noresult-container {
+	font-family: monospace;
+	margin-left: 39px;margin-bottom: 10px;
+}
+
+.noresult-container {
+    font-family: monospace;
+    float: right;
+    margin-right: -168px;
+    margin-top: 56px;
+    font-size: 20px;
+    color: crimson;
+    color: crimson;
+    font-weight: bold;
+}
+
+.result-container {
+    float: right;
+    margin-right: -75px;
+    margin-top: 25px;
+}
+
+#display-button{
+	font-family: fantasy;
+    background-color: cyan;
+    margin-left: 38px;
+    position: absolute;
+    bottom: 70px;
+}
+
+button#addition-button {
+    font-family: comic sans ms;
+    background-color: deepskyblue;
+    font-family: comic sans ms;
+    background-color: lightsteelblue;
+    outline: none;
+    border: 0;
+    padding: 4px;
+    border-radius: 3px;
+}
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    height: 55px;
+    padding: 2px;
+    margin-left: -125px;
+    background-color:green;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 2;
+    left: 50%;
+    top: 150px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
